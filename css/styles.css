@@ -33,6 +33,15 @@ body {
   padding: 0 34px;
 }
 
+@media screen and (width > 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    text-align: left;
+  }
+}
+
 .title {
   font-weight: 700;
   font-size: 40px;
@@ -40,12 +49,23 @@ body {
   letter-spacing: -1.43px;
   color: #512051;
 }
+
 .text {
   font-weight: 500;
   font-size: 19px;
   line-height: 25px;
   letter-spacing: -0.63px;
   color: #927b91;
+}
+
+@media screen and (width > 768px) {
+  .title {
+    width: 300px;
+  }
+
+  .text {
+    width: 450px;
+  }
 }
 
 .reviews {
@@ -65,14 +85,37 @@ body {
   padding: 16px 0;
 }
 
+@media screen and (width > 768px) {
+  .review {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 540px;
+    padding: 20px 79px 20px 32px;
+  }
+}
+
 .review-stars {
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
 }
 
+@media screen and (width > 768px) {
+  .review-stars {
+    margin-bottom: 0;
+  }
+}
+
+.icon-star {
+  margin-right: 8px;
+}
+
 .review-text {
   margin: 0;
+}
+
+.main {
+  padding: 0 24px;
 }
 
 .testimonials {
@@ -80,6 +123,13 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
+}
+
+@media screen and (width > 768px) {
+  .testimonials {
+    width: 1110px;
+    flex-direction: row;
+  }
 }
 
 .testimonial {
@@ -90,6 +140,16 @@ body {
   color: #fff;
   margin-bottom: 16px;
   border-radius: 8px;
+}
+
+@media screen and (width > 768px) {
+  .testimonial {
+    margin-right: 30px;
+  }
+
+  .testimonial-last {
+    margin-right: 0;
+  }
 }
 
 .testimonial-header {
