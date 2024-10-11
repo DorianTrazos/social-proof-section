@@ -25,5 +25,103 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 0 34px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: -1.43px;
+  color: #512051;
+}
+.text {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: -0.63px;
+  color: #927b91;
+}
+
+.reviews {
+  margin-bottom: 49px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #512051;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: #f7f2f7;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 16px 0;
+}
+
+.review-stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.review-text {
+  margin: 0;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.testimonial {
+  background-color: #512051;
+  width: 327px;
+  height: 248px;
+  padding: 40px 32px;
+  color: #fff;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.testimonial-image {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 23px;
+}
+
+.testimonial-title,
+.testimonial-job,
+.testimonial-text {
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.testimonial-title {
+  margin-bottom: 4px;
+}
+.testimonial-job {
+  font-weight: 400;
+  color: #ee69a4;
+}
+
+.testimonial-text {
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  font-weight: 500;
 }
